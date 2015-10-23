@@ -152,7 +152,7 @@ contexts:
         2: meta.implicit-specification.fortran
 
     # OpenMP
-    - match: (?x:^  \s*  ([!]\$)  .*  $)
+    - match: (?x:^  \s*  [!]\$(omp|OMP)  .*  $)
       scope: support.other.openmp.fortran
 
 
